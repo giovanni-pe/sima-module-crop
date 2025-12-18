@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/crops",
+    "description": "",
+    "authors": [
+        {
+            "name": "Tu Nombre",
+            "email": "tucorreo@example.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Crops\\": "app/",
+            "Modules\\Crops\\Database\\Factories\\": "database/factories/",
+            "Modules\\Crops\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Crops\\Tests\\": "tests/"
+        }
+    }
+}

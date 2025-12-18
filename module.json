@@ -1,0 +1,12 @@
+{
+    "name": "Crops",
+    "alias": "crops",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Crops\\Providers\\CropsServiceProvider",
+        "Modules\\Crops\\Providers\\RouteServiceProvider"
+    ],
+    "files": []
+}
